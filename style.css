@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fixedwidth{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+/* header */
+.headermenu{
+    background-color: #34495e;
+    text-align: center;
+    padding: 50px 0;
+}
+.headermenu li{
+   display: inline-block;
+}
+.headermenu li a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #e67e22;
+    color: #dbbedb;
+    padding: 8px;
+    margin-left: 15px;
+}
+.headermenu li a:hover{
+    background-color: rgb(133, 66, 3);
+    transition: .4s;
+}
+.bannersection{
+   background-image: url(https://i.ibb.co/nnCgD2M/background-image.jpg);
+   padding: 70px;
+}
+.bannersection h1{
+    color: #565657;
+}
+.bannersection p{
+   color: #676768;
+}
+.button a{
+    text-decoration: none;
+    background-color: #dc3545;
+    color: #eed7d7;
+    display: inline-block;
+    padding: 7px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.button a:hover{
+    background-color: rgb(184, 70, 5);
+    transition: .4s;
+}
+.container{
+    background-color: #d35400;
+    padding: 40px 50px 80px 50px;
+}
+.container ul{
+    margin-top: 15px;
+}
+.container ul li{
+   display: inline-block;
+}
+.container ul li a{
+   display: inline-block;
+   text-decoration: none;
+   margin: 30px 10px 0 0;
+   color: #37373b;
+}
+.footer{
+   background-color: #2c3e50;
+   padding: 20px 0 50px 0;
+}
+.footer ul{
+    margin-top: 10px;
+}
+.footer ul li{
+   display: inline-block;
+}
+.footer ul li a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #e67e22;
+    color: #595059;
+    padding: 8px;
+    margin-left: 15px;
+}
+.footer ul li a:hover{
+    background-color: rgb(240, 186, 10);
+    transition: .4s;
+}
+.footer p{
+    margin-top: 30px;
+    color: #d5d5d6;
+}
